@@ -1,0 +1,110 @@
+# VLM 模型推理配置（原生视频模型版）
+# 所有模型均支持原生视频输入或多帧图像输入
+
+models:
+  # === InternVL 系列（多帧图像模拟视频） ===
+  - id: 1
+    name: InternVL2.5-8B
+    path: H:\benchmark\models\InternVL2.5-8B\OpenGVLab\InternVL2_5-8B
+    model_type: internvl
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 多帧图像模拟视频
+
+  - id: 2
+    name: InternVL3-8B
+    path: H:\benchmark\models\InternVL3-8B\OpenGVLab\InternVL3-8B
+    model_type: internvl
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 多帧图像模拟视频
+
+  # === 原生视频模型 ===
+  - id: 3
+    name: Molmo2-8B
+    path: H:\benchmark\models\Molmo2-8B
+    model_type: molmo2
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 加载: AutoModelForImageTextToText.from_pretrained(path, trust_remote_code=True)
+    # 架构: Molmo2ForConditionalGeneration (基于Qwen3-8B + SigLIP2)
+    # 视频: processor.apply_chat_template 原生视频输入
+
+  - id: 4
+    name: MiniCPM-V-2.6-8B
+    path: H:\benchmark\models\MiniCPM-V-2.6-8B\openbmb\MiniCPM-V-2_6
+    model_type: minicpmv
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 支持原生视频输入
+
+  - id: 5
+    name: Qwen3-VL-8B-Instruct
+    path: H:\benchmark\models\Qwen3-VL-8B-Instruct\Qwen\Qwen3-VL-8B-Instruct
+    model_type: qwen3_vl
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 加载: AutoModelForCausalLM.from_pretrained(path, trust_remote_code=True)
+    # 视频输入: Qwen3VL processor 支持 video 类型输入
+    # 架构: Qwen3VLForConditionalGeneration
+
+  - id: 7
+    name: VideoLLaMA3-7B
+    path: H:\benchmark\models\VideoLLaMA3-7B
+    model_type: videollama3
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 加载: AutoModelForCausalLM.from_pretrained(path, trust_remote_code=True)
+    # 视频输入: model.process_video_info(messages) 或 processor(video=...)
+    # 架构: Videollama3Qwen2ForCausalLM (基于Qwen2)
+
+  # === 新增模型 ===
+  - id: 9
+    name: Eagle2.5-8B
+    path: H:\benchmark\models\Eagle2.5-8B
+    model_type: eagle25
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 加载: AutoModel.from_pretrained(path, trust_remote_code=True)
+    # 架构: Eagle2_5_VLForConditionalGeneration (基于Qwen2.5-7B + SigLIP2)
+    # 视频: processor.process_vision_info + processor() 原生视频输入
+
+  - id: 10
+    name: Qwen2.5-VL-7B-Instruct
+    path: H:\benchmark\models\Qwen2.5-VL-7B-Instruct
+    model_type: qwen25_vl
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 架构: Qwen2.5VL, 与 Qwen3-VL 类似的视频处理方式
+    # 视频: qwen_vl_utils 原生视频输入
+
+  # === 仅支持图像的模型（帧抽取方式） ===
+  - id: 8
+    name: Ovis2-8B
+    path: H:\benchmark\models\Ovis2-8B
+    model_type: ovis
+    dtype: bfloat16
+    video_native: true
+    trust_remote_code: true
+    # 使用帧抽取方式模拟视频输入
+
+# 数据路径
+data:
+  clips_dir: H:\benchmark\新建文件夹\video_clips
+  manifest_file: H:\benchmark\新建文件夹\video_clips\clips_manifest.json
+  output_dir: H:\benchmark\output
+
+# 推理参数
+inference:
+  max_new_tokens: 1024
+  do_sample_for_t1_t4: true
+  do_sample_for_t2_t3_t5: false
+  gpu_id: 0

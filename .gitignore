@@ -1,0 +1,11 @@
+# 视频数据文件（太大，不纳入版本控制）
+video_clips/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统文件
+.DS_Store
+Thumbs.db

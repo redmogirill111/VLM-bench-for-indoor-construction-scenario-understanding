@@ -5,8 +5,8 @@ Benchmark dataset and inference scripts for evaluating Vision-Language Models (V
 ## Dataset
 
 - **1154 video clips** split from 2 construction sites (hospital/university dormitory)
-- Scenes include: indoor construction, unstructural work, MEP, safety hazards
-- Clip format: MP4
+- Scenes include: indoor construction, unstructural work, MEP, works, safety hazards, building materials
+- Clip format: MP4 
 - Source videos located in `video_clips/`
 
 ### Video Sources

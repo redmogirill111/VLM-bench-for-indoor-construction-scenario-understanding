@@ -1,0 +1,4 @@
+clip_id,model,T1_completeness_1to5,T1_accuracy_1to5,T2_safety_1to5,T4_phase_correct_0or1,M3_term_usage_correct_0or1,annotator_notes
+00001,Ovis2-8B,,,,,,
+00001,Qwen3-VL-8B-Instruct,,,,,,
+00001,Molmo2-8B,,,,,,

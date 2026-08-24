@@ -1,0 +1,705 @@
+{
+  "total": 100,
+  "clips": [
+    {
+      "clip_id": "00605",
+      "file": "00605_rgb-4_c0065.mp4",
+      "source": "rgb-4.mp4",
+      "scene": "B",
+      "duration_sec": 7.0
+    },
+    {
+      "clip_id": "00608",
+      "file": "00608_rgb-4_c0068.mp4",
+      "source": "rgb-4.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "00687",
+      "file": "00687_rgb-5_c0063.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00836",
+      "file": "00836_rgb-6_c0121.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 7.0
+    },
+    {
+      "clip_id": "00010",
+      "file": "00010_Hospital construction site_c0009.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.08
+    },
+    {
+      "clip_id": "00636",
+      "file": "00636_rgb-5_c0012.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 5.6
+    },
+    {
+      "clip_id": "00816",
+      "file": "00816_rgb-6_c0101.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "01121",
+      "file": "01121_rgb-7_c0260.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "00442",
+      "file": "00442_rgb-3_c0067.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 8.0
+    },
+    {
+      "clip_id": "00840",
+      "file": "00840_rgb-6_c0125.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.0
+    },
+    {
+      "clip_id": "00295",
+      "file": "00295_Hospital construction site_c0294.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.24
+    },
+    {
+      "clip_id": "00663",
+      "file": "00663_rgb-5_c0039.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 5.4
+    },
+    {
+      "clip_id": "00445",
+      "file": "00445_rgb-3_c0070.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 7.6
+    },
+    {
+      "clip_id": "00222",
+      "file": "00222_Hospital construction site_c0221.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.72
+    },
+    {
+      "clip_id": "00317",
+      "file": "00317_Hospital construction site_c0316.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 4.96
+    },
+    {
+      "clip_id": "00719",
+      "file": "00719_rgb-6_c0004.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00110",
+      "file": "00110_Hospital construction site_c0109.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.88
+    },
+    {
+      "clip_id": "00226",
+      "file": "00226_Hospital construction site_c0225.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.76
+    },
+    {
+      "clip_id": "00071",
+      "file": "00071_Hospital construction site_c0070.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.64
+    },
+    {
+      "clip_id": "00699",
+      "file": "00699_rgb-5_c0075.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 6.6
+    },
+    {
+      "clip_id": "00121",
+      "file": "00121_Hospital construction site_c0120.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.28
+    },
+    {
+      "clip_id": "00996",
+      "file": "00996_rgb-7_c0135.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 6.4
+    },
+    {
+      "clip_id": "00272",
+      "file": "00272_Hospital construction site_c0271.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.88
+    },
+    {
+      "clip_id": "00884",
+      "file": "00884_rgb-7_c0023.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.0
+    },
+    {
+      "clip_id": "01090",
+      "file": "01090_rgb-7_c0229.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.2
+    },
+    {
+      "clip_id": "00242",
+      "file": "00242_Hospital construction site_c0241.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.76
+    },
+    {
+      "clip_id": "00019",
+      "file": "00019_Hospital construction site_c0018.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.44
+    },
+    {
+      "clip_id": "00079",
+      "file": "00079_Hospital construction site_c0078.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00761",
+      "file": "00761_rgb-6_c0046.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.8
+    },
+    {
+      "clip_id": "00451",
+      "file": "00451_rgb-3_c0076.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 7.6
+    },
+    {
+      "clip_id": "00542",
+      "file": "00542_rgb-4_c0002.mp4",
+      "source": "rgb-4.mp4",
+      "scene": "B",
+      "duration_sec": 7.8
+    },
+    {
+      "clip_id": "00012",
+      "file": "00012_Hospital construction site_c0011.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.52
+    },
+    {
+      "clip_id": "00592",
+      "file": "00592_rgb-4_c0052.mp4",
+      "source": "rgb-4.mp4",
+      "scene": "B",
+      "duration_sec": 5.6
+    },
+    {
+      "clip_id": "00964",
+      "file": "00964_rgb-7_c0103.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00064",
+      "file": "00064_Hospital construction site_c0063.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.04
+    },
+    {
+      "clip_id": "00553",
+      "file": "00553_rgb-4_c0013.mp4",
+      "source": "rgb-4.mp4",
+      "scene": "B",
+      "duration_sec": 5.4
+    },
+    {
+      "clip_id": "00374",
+      "file": "00374_rgb-2_c0026.mp4",
+      "source": "rgb-2.mp4",
+      "scene": "B",
+      "duration_sec": 1.8
+    },
+    {
+      "clip_id": "00764",
+      "file": "00764_rgb-6_c0049.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.6
+    },
+    {
+      "clip_id": "00925",
+      "file": "00925_rgb-7_c0064.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 6.4
+    },
+    {
+      "clip_id": "00398",
+      "file": "00398_rgb-3_c0023.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 6.8
+    },
+    {
+      "clip_id": "00757",
+      "file": "00757_rgb-6_c0042.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.2
+    },
+    {
+      "clip_id": "00660",
+      "file": "00660_rgb-5_c0036.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 6.6
+    },
+    {
+      "clip_id": "00798",
+      "file": "00798_rgb-6_c0083.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.6
+    },
+    {
+      "clip_id": "00208",
+      "file": "00208_Hospital construction site_c0207.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.16
+    },
+    {
+      "clip_id": "00253",
+      "file": "00253_Hospital construction site_c0252.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.2
+    },
+    {
+      "clip_id": "00033",
+      "file": "00033_Hospital construction site_c0032.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.6
+    },
+    {
+      "clip_id": "00536",
+      "file": "00536_rgb-3_c0161.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "00485",
+      "file": "00485_rgb-3_c0110.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 7.6
+    },
+    {
+      "clip_id": "00934",
+      "file": "00934_rgb-7_c0073.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 8.0
+    },
+    {
+      "clip_id": "00675",
+      "file": "00675_rgb-5_c0051.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 6.8
+    },
+    {
+      "clip_id": "00782",
+      "file": "00782_rgb-6_c0067.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 7.2
+    },
+    {
+      "clip_id": "00415",
+      "file": "00415_rgb-3_c0040.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 5.6
+    },
+    {
+      "clip_id": "00379",
+      "file": "00379_rgb-3_c0004.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 6.0
+    },
+    {
+      "clip_id": "00688",
+      "file": "00688_rgb-5_c0064.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 5.6
+    },
+    {
+      "clip_id": "00437",
+      "file": "00437_rgb-3_c0062.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00909",
+      "file": "00909_rgb-7_c0048.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 6.4
+    },
+    {
+      "clip_id": "00011",
+      "file": "00011_Hospital construction site_c0010.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.64
+    },
+    {
+      "clip_id": "00838",
+      "file": "00838_rgb-6_c0123.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.4
+    },
+    {
+      "clip_id": "00804",
+      "file": "00804_rgb-6_c0089.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.4
+    },
+    {
+      "clip_id": "00428",
+      "file": "00428_rgb-3_c0053.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 5.0
+    },
+    {
+      "clip_id": "00260",
+      "file": "00260_Hospital construction site_c0259.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.8
+    },
+    {
+      "clip_id": "00882",
+      "file": "00882_rgb-7_c0021.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "00280",
+      "file": "00280_Hospital construction site_c0279.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.8
+    },
+    {
+      "clip_id": "01049",
+      "file": "01049_rgb-7_c0188.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "00786",
+      "file": "00786_rgb-6_c0071.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 8.0
+    },
+    {
+      "clip_id": "00929",
+      "file": "00929_rgb-7_c0068.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00839",
+      "file": "00839_rgb-6_c0124.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 8.0
+    },
+    {
+      "clip_id": "00323",
+      "file": "00323_rgb-1_c0005.mp4",
+      "source": "rgb-1.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "01084",
+      "file": "01084_rgb-7_c0223.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.2
+    },
+    {
+      "clip_id": "00865",
+      "file": "00865_rgb-7_c0004.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00054",
+      "file": "00054_Hospital construction site_c0053.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.8
+    },
+    {
+      "clip_id": "00590",
+      "file": "00590_rgb-4_c0050.mp4",
+      "source": "rgb-4.mp4",
+      "scene": "B",
+      "duration_sec": 5.0
+    },
+    {
+      "clip_id": "01105",
+      "file": "01105_rgb-7_c0244.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.2
+    },
+    {
+      "clip_id": "00775",
+      "file": "00775_rgb-6_c0060.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 5.2
+    },
+    {
+      "clip_id": "00435",
+      "file": "00435_rgb-3_c0060.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 6.6
+    },
+    {
+      "clip_id": "00692",
+      "file": "00692_rgb-5_c0068.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 7.0
+    },
+    {
+      "clip_id": "00368",
+      "file": "00368_rgb-2_c0020.mp4",
+      "source": "rgb-2.mp4",
+      "scene": "B",
+      "duration_sec": 7.2
+    },
+    {
+      "clip_id": "00041",
+      "file": "00041_Hospital construction site_c0040.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.12
+    },
+    {
+      "clip_id": "00609",
+      "file": "00609_rgb-4_c0069.mp4",
+      "source": "rgb-4.mp4",
+      "scene": "B",
+      "duration_sec": 5.2
+    },
+    {
+      "clip_id": "00665",
+      "file": "00665_rgb-5_c0041.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 6.8
+    },
+    {
+      "clip_id": "00186",
+      "file": "00186_Hospital construction site_c0185.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.0
+    },
+    {
+      "clip_id": "00963",
+      "file": "00963_rgb-7_c0102.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.4
+    },
+    {
+      "clip_id": "00083",
+      "file": "00083_Hospital construction site_c0082.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.76
+    },
+    {
+      "clip_id": "00156",
+      "file": "00156_Hospital construction site_c0155.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.68
+    },
+    {
+      "clip_id": "00100",
+      "file": "00100_Hospital construction site_c0099.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 7.6
+    },
+    {
+      "clip_id": "00204",
+      "file": "00204_Hospital construction site_c0203.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 5.48
+    },
+    {
+      "clip_id": "00455",
+      "file": "00455_rgb-3_c0080.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00489",
+      "file": "00489_rgb-3_c0114.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 6.6
+    },
+    {
+      "clip_id": "00035",
+      "file": "00035_Hospital construction site_c0034.mp4",
+      "source": "Hospital construction site.mp4",
+      "scene": "A",
+      "duration_sec": 6.12
+    },
+    {
+      "clip_id": "01041",
+      "file": "01041_rgb-7_c0180.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.2
+    },
+    {
+      "clip_id": "00792",
+      "file": "00792_rgb-6_c0077.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 7.6
+    },
+    {
+      "clip_id": "01024",
+      "file": "01024_rgb-7_c0163.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.8
+    },
+    {
+      "clip_id": "01152",
+      "file": "01152_rgb-7_c0291.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.8
+    },
+    {
+      "clip_id": "00427",
+      "file": "00427_rgb-3_c0052.mp4",
+      "source": "rgb-3.mp4",
+      "scene": "B",
+      "duration_sec": 7.0
+    },
+    {
+      "clip_id": "00759",
+      "file": "00759_rgb-6_c0044.mp4",
+      "source": "rgb-6.mp4",
+      "scene": "B",
+      "duration_sec": 6.0
+    },
+    {
+      "clip_id": "00702",
+      "file": "00702_rgb-5_c0078.mp4",
+      "source": "rgb-5.mp4",
+      "scene": "B",
+      "duration_sec": 7.4
+    },
+    {
+      "clip_id": "01079",
+      "file": "01079_rgb-7_c0218.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 6.4
+    },
+    {
+      "clip_id": "00940",
+      "file": "00940_rgb-7_c0079.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 6.4
+    },
+    {
+      "clip_id": "00990",
+      "file": "00990_rgb-7_c0129.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 5.2
+    },
+    {
+      "clip_id": "00919",
+      "file": "00919_rgb-7_c0058.mp4",
+      "source": "rgb-7.mp4",
+      "scene": "B",
+      "duration_sec": 7.0
+    }
+  ]
+}

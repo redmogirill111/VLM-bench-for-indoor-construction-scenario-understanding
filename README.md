@@ -22,10 +22,14 @@ Located in `inference/`:
 
 | Script | Models Covered | Description |
 |--------|---------------|-------------|
-| `run_batch_inference.py` | All 9 models | **Main entry point** — unified batch runner with per-model adapters |
+| `run_batch_inference.py` | All 9 models | **Main entry point** — unified batch runner with per-model adapters (T1–T5 v1) |
 | `run_eagle25.py` | Eagle2.5-8B | Standalone Eagle2.5 inference |
 | `run_videollama3_inference.py` | VideoLLaMA3-7B | Standalone VideoLLaMA3 inference |
-| `prompts.py` | — | T1–T5 task prompt definitions |
+| `t5v2_library.py` | — | **T5v2** dual-probe phrase libraries (50+50), answer parser, M4v2 scoring |
+| `run_t5v2_inference.py` | All 9 models | **T5v2** hallucination re-test runner (deterministic per-clip sampling) |
+| `run_t5v2_all.ps1` | All 9 models | Multi-environment orchestrator for the T5v2 re-test |
+| `build_t5v2_datafiles.py` | — | Rebuild evaluation data files from T5v2 outputs (M4→M4v2) |
+| `prompts.py` | — | T1–T5 task prompt definitions (v1 T5 kept for reproducibility) |
 | `model_configs.yaml` | — | Model paths and configurations |
 
 ### Supported Models
@@ -142,7 +146,42 @@ done
 | T2 | Safety Hazard Detection | Free-text |
 | T3 | Structured JSON Output | JSON |
 | T4 | Construction Phase Inference | Free-text |
-| T5 | Hallucination / Negative Object Test | Free-text |
+| T5 | Hallucination / Negative Object Test (v1, superseded by **T5v2** below) | Free-text |
+
+### T5v2 — Dual-Probe Hallucination Test (revised)
+
+The original T5 (2 randomly sampled fabricated objects per clip) discriminated weakly among models and probed only object-existence hallucination. **T5v2** redesigns the negative-verification task with two curated phrase libraries (see `t5v2_library.py` and `T5_phrase_libraries_CN_EN.md` for the full bilingual lists):
+
+- **T5b (existence probes, 50 phrases)** — construction objects that can never appear in indoor footage (e.g., tower crane, shield tunneling machine, bridge girder erector, wind turbine);
+- **T5c (attribute probes, 50 phrases)** — attributes / scene states / operations that can never occur indoors (e.g., snow-covered scaffolding, directly visible sky, asphalt paving).
+
+Per clip, one phrase is drawn from each library with a fixed random seed keyed on `clip_id` — all nine models receive **identical** questions. The model answers two yes/no questions; the hallucination-suppression score **M4v2 = 1** only if both probes are correctly rejected ("no"), otherwise 0. The design is fully label-free and auto-scorable by construction.
+
+```bash
+# Single model
+python run_t5v2_inference.py --models InternVL2.5-8B
+
+# Multiple models
+python run_t5v2_inference.py --models InternVL2.5-8B,InternVL3-8B --limit 20
+
+# All 9 models across conda environments (Windows PowerShell)
+./run_t5v2_all.ps1
+```
+
+Reference results (9 models × 1,154 clips): Qwen3-VL-8B-Instruct 0.988 > Ovis2-8B 0.971 > InternVL3-8B 0.944 > ... > MiniCPM-V-2.6-8B 0.636.
+
+## Human-Annotation Subset (100 clips)
+
+To validate the proxy metrics, a stratified subset of 100 clips (scene A/B × duration) was defined for human judgment. Files under `annotation/`:
+
+| File | Description |
+|------|-------------|
+| `annotation/sample_100.json` / `.csv` | The 100-clip stratified sample (clip_id, file, scene, duration) |
+| `annotation/annotation_guideline_CN.md` | Annotation guideline: 1–5 ordinal scores for T1 completeness/accuracy and T2 safety; binary judgments for phase correctness, term usage, existence/attribute hallucination; objective clip-level anchors |
+| `annotation/annotation_template.csv` | Blank annotation template |
+| `annotation/annotations_sim_v3.json` | **Pre-release placeholder** (simulated v3 annotations used for pipeline validation and correlation-matrix calibration). Will be replaced by the released human annotations |
+
+> Graded scoring (1–5) is adopted because open-ended VQA tasks admit no single definitive reference answer — responses within a range of granularity/emphasis all count as partially correct, which binary labels would collapse.
 
 ## Tools
 
@@ -157,6 +196,9 @@ python inference/run_batch_inference.py
 # Run a specific model
 python inference/run_eagle25.py
 python inference/run_videollama3_inference.py
+
+# T5v2 hallucination re-test (revised T5)
+python run_t5v2_inference.py
 ```
 
 ## Requirements

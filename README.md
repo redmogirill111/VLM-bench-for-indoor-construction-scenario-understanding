@@ -179,7 +179,7 @@ To validate the proxy metrics, a stratified subset of 100 clips (scene A/B × du
 | `annotation/sample_100.json` / `.csv` | The 100-clip stratified sample (clip_id, file, scene, duration) |
 | `annotation/annotation_guideline_CN.md` | Annotation guideline: 1–5 ordinal scores for T1 completeness/accuracy and T2 safety; binary judgments for phase correctness, term usage, existence/attribute hallucination; objective clip-level anchors |
 | `annotation/annotation_template.csv` | Blank annotation template |
-| `annotation/annotations_sim_v3.json` | **Pre-release placeholder** (simulated v3 annotations used for pipeline validation and correlation-matrix calibration). Will be replaced by the released human annotations |
+| `annotation/human_annotations.json` | Human annotations for the 100-clip subset: per-clip per-model scores (T1 completeness/accuracy, T2 safety, phase correctness, term usage, existence/attribute hallucination) |
 
 > Graded scoring (1–5) is adopted because open-ended VQA tasks admit no single definitive reference answer — responses within a range of granularity/emphasis all count as partially correct, which binary labels would collapse.
 
